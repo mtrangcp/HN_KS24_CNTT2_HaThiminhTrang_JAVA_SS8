@@ -95,7 +95,7 @@ public class Main {
                     do{
                         System.out.println("Nhập học lực muốn tìm: ");
                         searchWord = sc.nextLine().trim();
-                    }while (!searchWord.isBlank());
+                    }while (searchWord.isBlank());
 
                     System.out.printf("\nDanh sách sinh viên theo học lực %s \n", searchWord);
                     for(int i  = 0; i<n; i++){
